@@ -6,7 +6,7 @@
     <groupId>io.searchbox</groupId>
     <artifactId>jest-common</artifactId>
     <packaging>jar</packaging>
-    <version>0.1.7-BV-SNAPSHOT</version>
+    <version>0.1.7-BV</version>
     <name>Jest Common Jar</name>
     <description>ElasticSearch Java REST client - shared library package</description>
     <url>https://github.com/VlasShatokhin/Jest</url>
@@ -23,7 +23,8 @@
         <connection>scm:git:git@github.com:VlasShatokhin/Jest.git</connection>
         <developerConnection>scm:git:git@github.com:VlasShatokhin/Jest.git</developerConnection>
         <url>git@github.com:VlasShatokhin/Jest.git</url>
-    </scm>
+      <tag>jest-parent-0.1.7-BV</tag>
+  </scm>
 
     <developers>
         <developer>
@@ -47,7 +48,7 @@
     <parent>
         <groupId>io.searchbox</groupId>
         <artifactId>jest-parent</artifactId>
-        <version>0.1.7-BV-SNAPSHOT</version>
+        <version>0.1.7-BV</version>
     </parent>
 
     <dependencies>

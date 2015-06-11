@@ -6,7 +6,7 @@
     <groupId>io.searchbox</groupId>
     <artifactId>jest-parent</artifactId>
     <packaging>pom</packaging>
-    <version>0.1.7-BV-SNAPSHOT</version>
+    <version>0.1.7-BV</version>
     <name>Jest Parent POM</name>
     <description>Parent POM for Jest - ElasticSearch Java rest client</description>
     <url>https://github.com/VlasShatokhin/Jest</url>
@@ -36,7 +36,8 @@
         <connection>scm:git:git@github.com:VlasShatokhin/Jest.git</connection>
         <developerConnection>scm:git:git@github.com:VlasShatokhin/Jest.git</developerConnection>
         <url>git@github.com:VlasShatokhin/Jest.git</url>
-    </scm>
+      <tag>jest-parent-0.1.7-BV</tag>
+  </scm>
 
     <developers>
         <developer>

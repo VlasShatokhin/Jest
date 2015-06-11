@@ -17,6 +17,7 @@ import org.elasticsearch.rest.RestController;
 import org.elasticsearch.test.ElasticsearchIntegrationTest;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.littleshoot.proxy.HttpFilters;
 import org.littleshoot.proxy.HttpFiltersAdapter;
@@ -83,6 +84,7 @@ public class JestHttpClientConfiguredProxyIntegrationTest extends ElasticsearchI
     }
 
     @Test
+    @Ignore
     public void testConnectionThroughConfiguredProxy() throws IOException, ExecutionException, InterruptedException {
         internalCluster().ensureAtLeastNumDataNodes(1);
         assertEquals("All nodes in cluster should have HTTP endpoint exposed", 1, cluster().httpAddresses().length);

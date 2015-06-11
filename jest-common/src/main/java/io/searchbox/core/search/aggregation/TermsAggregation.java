@@ -25,8 +25,14 @@ public class TermsAggregation extends BucketAggregation {
 
     public TermsAggregation(String name, JsonObject termAggregation) {
         super(name, termAggregation);
-        docCountErrorUpperBound = termAggregation.get(String.valueOf(DOC_COUNT_ERROR_UPPER_BOUND)).getAsLong();
-        sumOtherDocCount = termAggregation.get(String.valueOf(SUM_OTHER_DOC_COUNT)).getAsLong();
+        JsonElement docCountErrorUpperBoundElement = termAggregation.get(String.valueOf(DOC_COUNT_ERROR_UPPER_BOUND));
+        if (docCountErrorUpperBoundElement != null ) {
+            docCountErrorUpperBound = docCountErrorUpperBoundElement.getAsLong();
+        }
+        JsonElement sumOtherDocCountElement = termAggregation.get(String.valueOf(SUM_OTHER_DOC_COUNT));
+        if (sumOtherDocCountElement != null) {
+            sumOtherDocCount = sumOtherDocCountElement.getAsLong();
+        }
 
         if(termAggregation.has(String.valueOf(BUCKETS)) && termAggregation.get(String.valueOf(BUCKETS)).isJsonArray()) {
             parseBuckets(termAggregation.get(String.valueOf(BUCKETS)).getAsJsonArray());

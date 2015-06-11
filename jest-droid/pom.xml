@@ -6,10 +6,10 @@
     <groupId>io.searchbox</groupId>
     <artifactId>jest-droid</artifactId>
     <packaging>jar</packaging>
-    <version>0.1.7-SNAPSHOT</version>
+    <version>0.1.7-BV-SNAPSHOT</version>
     <name>Jest Android Jar</name>
     <description>ElasticSearch Java REST client - Android library package</description>
-    <url>https://github.com/searchbox-io/Jest</url>
+    <url>https://github.com/VlasShatokhin/Jest</url>
 
     <licenses>
         <license>
@@ -20,9 +20,9 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git@github.com:searchbox-io/Jest.git</connection>
-        <developerConnection>scm:git:git@github.com:searchbox-io/Jest.git</developerConnection>
-        <url>git@github.com:searchbox-io/Jest.git</url>
+        <connection>scm:git:git@github.com:VlasShatokhin/Jest.git</connection>
+        <developerConnection>scm:git:git@github.com:VlasShatokhin/Jest.git</developerConnection>
+        <url>git@github.com:VlasShatokhin/Jest.git</url>
     </scm>
 
     <developers>
@@ -47,7 +47,7 @@
     <parent>
         <groupId>io.searchbox</groupId>
         <artifactId>jest-parent</artifactId>
-        <version>0.1.7-SNAPSHOT</version>
+        <version>0.1.7-BV-SNAPSHOT</version>
     </parent>
 
     <dependencies>

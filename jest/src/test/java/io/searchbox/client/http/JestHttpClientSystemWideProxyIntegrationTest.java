@@ -115,6 +115,7 @@ public class JestHttpClientSystemWideProxyIntegrationTest extends ElasticsearchI
     }
 
     @Test
+    @Ignore
     public void testConnectionThroughDefaultProxy() throws IOException, ExecutionException, InterruptedException {
         internalCluster().ensureAtLeastNumDataNodes(1);
         assertEquals("All nodes in cluster should have HTTP endpoint exposed", 1, cluster().httpAddresses().length);

@@ -6,15 +6,16 @@
     <groupId>io.searchbox</groupId>
     <artifactId>jest-parent</artifactId>
     <packaging>pom</packaging>
-    <version>0.1.7-SNAPSHOT</version>
+    <version>0.1.7-BV-SNAPSHOT</version>
     <name>Jest Parent POM</name>
     <description>Parent POM for Jest - ElasticSearch Java rest client</description>
-    <url>https://github.com/searchbox-io/Jest</url>
+    <url>https://github.com/VlasShatokhin/Jest</url>
 
     <parent>
-        <groupId>org.sonatype.oss</groupId>
-        <artifactId>oss-parent</artifactId>
-        <version>9</version>
+        <groupId>com.bazaarvoice.commons</groupId>
+        <artifactId>bv-super-pom</artifactId>
+        <version>1.12</version>
+        <relativePath />
     </parent>
 
     <modules>
@@ -32,19 +33,10 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git@github.com:searchbox-io/Jest.git</connection>
-        <developerConnection>scm:git:git@github.com:searchbox-io/Jest.git</developerConnection>
-        <url>git@github.com:searchbox-io/Jest.git</url>
+        <connection>scm:git:git@github.com:VlasShatokhin/Jest.git</connection>
+        <developerConnection>scm:git:git@github.com:VlasShatokhin/Jest.git</developerConnection>
+        <url>git@github.com:VlasShatokhin/Jest.git</url>
     </scm>
-
-    <repositories>
-        <repository>
-            <id>sonatype</id>
-            <name>Sonatype Groups</name>
-            <url>https://oss.sonatype.org/content/groups/public/</url>
-        </repository>
-    </repositories>
-
 
     <developers>
         <developer>

@@ -36,7 +36,8 @@
         <connection>scm:git:git@github.com:VlasShatokhin/Jest.git</connection>
         <developerConnection>scm:git:git@github.com:VlasShatokhin/Jest.git</developerConnection>
         <url>git@github.com:VlasShatokhin/Jest.git</url>
-    </scm>
+      <tag>0.1.7-BV</tag>
+  </scm>
 
     <developers>
         <developer>
